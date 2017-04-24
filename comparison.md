@@ -81,16 +81,22 @@
  ##### Does the language have features for handling null/nil references?
 
 ### 14. Errors and exception handling
-Lambda expressions, closures, or functions as types
-Implementation of listeners and event handlers
-Singleton
-How is a singleton implemented?
-Can it be made thread-safe?
-Can the singleton instance be lazily instantiated?
-Procedural programming
-Does the language support procedural programming?
-Functional programming
-Does the language support functional programming?
-Multithreading
-Threads or thread-like abilities
-How is multitasking accomplished?
+
+### 15. Lambda expressions, closures, or functions as types
+
+### 16. Implementation of listeners and event handlers
+
+### 17. Singleton
+ ##### How is a singleton implemented?
+ ##### Can it be made thread-safe?
+ ##### Can the singleton instance be lazily instantiated?
+
+### 18. Procedural programming
+ ##### Does the language support procedural programming?
+
+### 19. Functional programming
+ #####Does the language support functional programming?
+
+### 20. Multithreading
+ ##### Threads or thread-like abilities
+ ##### How is multitasking accomplished?
