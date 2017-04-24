@@ -9,3 +9,15 @@
  ##### Is the language a reaction to a previous language or a replacement for another language?
  Java: Java was meant to act as a replacement for C/C++  
  C#: C# isn't so much a replacement as an extension of C/C++   
+
+### 2. Unique features of the language
+ ##### Does the language have any particularly unique features?
+ Java: Has no pointers. 
+ C#:  C# isn't really unique in that it is derived from it's predecessors. 
+
+### 3. Name spaces
+ ##### How are name spaces implemented?
+ Java: 
+ C#: Namespace for organization and scope of the project.
+ ##### How are name spaces used?
+ 
