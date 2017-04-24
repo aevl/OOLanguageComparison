@@ -45,8 +45,8 @@
  Java: Access modifiers are used, including: Default, Public, Protected, Private. Constructors do not have a return type.    
  C#: Access modifiers are used, including: Public, Private, Protected, Internal. When a class or struct is created, its constructor is called. Constructors have the same name as the class or struct, and they usually initialize the data members of the new object. (https://msdn.microsoft.com/en-us/library/ms173115.aspx)   
  ##### Destructing/de-initializing
- Java: Because of the garbage collection, there is no ability to use a destructor. 
- C#: Destructos cannot be defined in structs, they are only used with classes. A class can only have one destructor and they cannot be inheirited or overloaded. 
+ Java: Because of the garbage collection, there is no ability to use a destructor.   
+ C#: Destructos cannot be defined in structs, they are only used with classes. A class can only have one destructor and they cannot be inheirited or overloaded.  
  
  ### 6. Instance reference name in data type (class)
  ##### this? self?
