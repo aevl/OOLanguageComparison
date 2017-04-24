@@ -17,7 +17,19 @@
 
 ### 3. Name spaces
  ##### How are name spaces implemented?
- Java: 
- C#: Namespace for organization and scope of the project.
+ Java: Packages in Java cannot be nested. One source file can only have one package statement. EXAMPLE
+ C#: EXAMPLE
  ##### How are name spaces used?
- 
+ Java: Packages are used to organize files or public types to avoid type conflicts
+ C#: Namespaces are used to organize programs
+
+### 4. Types
+ ##### What types does the language support?
+ Java: 
+ C#: 
+ ##### Are both reference and value types supported?
+ Java: 
+ C#: 
+ ##### Can new value types be created?
+ Java 
+ C#:
