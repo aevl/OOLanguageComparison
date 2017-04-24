@@ -50,3 +50,47 @@
  
  ### 6. Instance reference name in data type (class)
  ##### this? self?
+
+### 7. Properties
+ ##### Getters and setters...write your own or built in?
+ ##### Backing variables?
+ ##### Computed properties?
+
+### 8. Interfaces / protocols
+ ##### What does the language support?
+ ##### What abilities does it have?
+ ##### How is it used?
+
+### 9. Inheritance / extension
+
+### 10. Reflection
+ ##### What reflection abilities are supported?
+ ##### How is reflection used?
+
+### 11. Memory management
+ ##### How is it handled?
+ ##### How does it work?
+ ##### Garbage collection?
+ ##### Automatic reference counting?
+
+### 12. Comparisons of references and values
+ ##### How are values compared? (i.e. comparing two strings)
+
+### 13. Null/nil references
+ ##### Which does the language use? (null/nil/etc)
+ ##### Does the language have features for handling null/nil references?
+
+### 14. Errors and exception handling
+Lambda expressions, closures, or functions as types
+Implementation of listeners and event handlers
+Singleton
+How is a singleton implemented?
+Can it be made thread-safe?
+Can the singleton instance be lazily instantiated?
+Procedural programming
+Does the language support procedural programming?
+Functional programming
+Does the language support functional programming?
+Multithreading
+Threads or thread-like abilities
+How is multitasking accomplished?
