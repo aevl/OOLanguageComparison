@@ -25,18 +25,28 @@
 
 ### 4. Types
  ##### What types does the language support?
- Java: Primitive data types aren't objects. There is no primative string. 
+ Java: Primitive data types aren't objects. There is no primative string.   
  C#: Primitive data types are objects. Value type variables can be assigned a value directly. They are derived from the class System.ValueType. The value types directly contain data. Some examples are int, char, and float, which stores numbers, alphabets, and floating point numbers, respectively. There is a primitive string.  (https://msdn.microsoft.com/en-us/library/ms173104.aspx)  
  ##### Are both reference and value types supported?
- Java: Java manipulates objects by reference but doesn't pass method arguments. It only passes values. 
- C#: Objects aren't passed at all. Objects are passed by value. A reference type cannot contain a null.
+ Java: Java manipulates objects by reference but doesn't pass method arguments. It only passes values.   
+ C#: Objects aren't passed at all. Objects are passed by value. A reference type cannot contain a null.  
  ##### Can new value types be created?
  Java: You can create a new value type.  
- C#: You cannot derive a new value type in C#.  
+ C#: You cannot derive a new value type in C# however you can use structs. 
 
 ### 5. Classes
  ##### Defining
+ Java: A class is nothing but a blueprint or a template for creating different objects which defines its properties and behaviors. Java class objects exhibit the properties and behaviors defined by its class. A class can contain fields and methods to describe the behavior of an object.  
+ C#: A class is a construct that enables you to create your own custom types by grouping together variables of other types, methods and events. A class is like a blueprint. It defines the data and behavior of a type. If the class is not declared as static, client code can use it by creating objects or instances which are assigned to a variable. The variable remains in memory until all references to it go out of scope. At that time, the CLR marks it as eligible for garbage collection. If the class is declared as static, then only one copy exists in memory and client code can only access it through the class itself, not an instance variable. For more information, see Static Classes and Static Class Members. 
  ##### Creating new instances
+ Java: Declare a class with the "class" keyword.  
+ C#: Declare a class with the "class" keyword.  
  ##### Constructing/initializing
+ Java: Access modifiers are used, including: Default, Public, Protected, Private. Constructors do not have a return type.    
+ C#: Access modifiers are used, including: Public, Private, Protected, Internal. When a class or struct is created, its constructor is called. Constructors have the same name as the class or struct, and they usually initialize the data members of the new object. (https://msdn.microsoft.com/en-us/library/ms173115.aspx)   
  ##### Destructing/de-initializing
-
+ Java: Because of the garbage collection, there is no ability to use a destructor. 
+ C#: Destructos cannot be defined in structs, they are only used with classes. A class can only have one destructor and they cannot be inheirited or overloaded. 
+ 
+ ### 6. Instance reference name in data type (class)
+ ##### this? self?
