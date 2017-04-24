@@ -17,19 +17,26 @@
 
 ### 3. Name spaces
  ##### How are name spaces implemented?
- Java: Packages in Java cannot be nested. One source file can only have one package statement. EXAMPLE
- C#: EXAMPLE
+ Java: Packages in Java cannot be nested. One source file can only have one package statement. EXAMPLE  
+ C#: EXAMPLE  
  ##### How are name spaces used?
- Java: Packages are used to organize files or public types to avoid type conflicts
- C#: Namespaces are used to organize programs
+ Java: Packages are used to organize files or public types to avoid type conflicts  
+ C#: Namespaces are used to organize programs  
 
 ### 4. Types
  ##### What types does the language support?
- Java: 
- C#: 
+ Java: Primitive data types aren't objects. There is no primative string. 
+ C#: Primitive data types are objects. Value type variables can be assigned a value directly. They are derived from the class System.ValueType. The value types directly contain data. Some examples are int, char, and float, which stores numbers, alphabets, and floating point numbers, respectively. There is a primitive string.  (https://msdn.microsoft.com/en-us/library/ms173104.aspx)  
  ##### Are both reference and value types supported?
- Java: 
- C#: 
+ Java: Java manipulates objects by reference but doesn't pass method arguments. It only passes values. 
+ C#: Objects aren't passed at all. Objects are passed by value. A reference type cannot contain a null.
  ##### Can new value types be created?
- Java 
- C#:
+ Java: You can create a new value type.  
+ C#: You cannot derive a new value type in C#.  
+
+### 5. Classes
+ ##### Defining
+ ##### Creating new instances
+ ##### Constructing/initializing
+ ##### Destructing/de-initializing
+
