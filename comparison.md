@@ -26,7 +26,7 @@
 ### 4. Types
  ##### What types does the language support?
  Java: Primitive data types aren't objects. There is no primative string.   
- C#: Primitive data types are objects. Value type variables can be assigned a value directly. They are derived from the class System.ValueType. The value types directly contain data. Some examples are int, char, and float, which stores numbers, alphabets, and floating point numbers, respectively. There is a primitive string.  (https://msdn.microsoft.com/en-us/library/ms173104.aspx)  
+ C#: Primitive data types are objects. Value type variables can be assigned a value directly. They are derived from the class System.ValueType. The value types directly contain data. Some examples are int, char, and float, which stores numbers, alphabets, and floating point numbers, respectively. There is a primitive string.  [Microsoft](https://msdn.microsoft.com/en-us/library/ms173104.aspx)
  ##### Are both reference and value types supported?
  Java: Java manipulates objects by reference but doesn't pass method arguments. It only passes values.   
  C#: Objects aren't passed at all. Objects are passed by value. A reference type cannot contain a null.  
@@ -53,11 +53,23 @@
 
 ### 7. Properties
  ##### Getters and setters...write your own or built in?
+ Java: Getters and setters are written by the programmer
+ ```
+ public class Month {
+   private int month;
 
+   public int getMonth(){
+     return month;
+   }
+   public void setMonth(value){
+     month = value;
+   }
+ }
+ ```
  C#: getters and setters are written by the programmer
  ```
  public class Month {
-   private int month = 7;
+   private int month = 7; //Backing store
 
    public int Month {
      get {
@@ -69,8 +81,10 @@
    }
  }
  ```
-
  ##### Backing variables?
+ Java: IDK what I'm talking about. SOMEONE HLEP ME!!!
+ C#: As in the above example, a private field that stores the data exposed by a public property is called a backing store or backing field. Without them, the getter/setter would infinitely self-reference.
+
  ##### Computed properties?
 
 ### 8. Interfaces / protocols
