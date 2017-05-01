@@ -49,12 +49,10 @@
  C#: Destructos cannot be defined in structs, they are only used with classes. A class can only have one destructor and they cannot be inheirited or overloaded.  
 
  ### 6. Instance reference name in data type (class)
- ##### C#: this
- ##### Java: this 
+C#: this
+Java: this 
 
 ### 7. Properties
-#### C#: Getters and setters written as { get; set; }
-####
  ##### Getters and setters...write your own or built in?
  Java: Getters and setters are written by the programmer
  ```
@@ -85,19 +83,29 @@
  }
  ```
  ##### Backing variables?
- Java: IDK what I'm talking about. SOMEONE HLEP ME!!!
+ Java: No backing variables
  C#: As in the above example, a private field that stores the data exposed by a public property is called a backing store or backing field. Without them, the getter/setter would infinitely self-reference.
 
  ##### Computed properties?
+ Java: Not applicable
+ C#: Has computed properties which computes a value rather than store them.
 
 ### 8. Interfaces / protocols
- ##### What does the language support?
- ##### What abilities does it have?
- ##### How is it used?
+Java: Uses an interface which is a referance type of a collection of methods that a class implements sucj as abstrat methods, constsants, default methods, static methods, and nested types.
+C#: Uses an interface which only contains the signature of methods, and a class implements them.
 
 ### 9. Inheritance / extension
+Java: Inheritance is when a subclass is derived or extended from a super class. This means the subclass inheritas all the members of the super class.
+C#: Built upon inheritance and the ability to inherit subclasses from super classes.
 
 ### 10. Reflection
+Java: Used to 
+C#: Used to dynamically create an instance to types, get the type from an existing object and invoke its methods and fields, or bind types to an existing oject. Example below:
+
+int i = 42;
+System.Type type = i.GetType();
+System.Console.WriteLine(type);
+
  ##### What reflection abilities are supported?
  ##### How is reflection used?
 
