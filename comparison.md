@@ -49,9 +49,12 @@
  C#: Destructos cannot be defined in structs, they are only used with classes. A class can only have one destructor and they cannot be inheirited or overloaded.  
  
  ### 6. Instance reference name in data type (class)
- ##### this? self?
+ ##### C#: this
+ ##### Java: this 
 
 ### 7. Properties
+#### C#: Getters and setters written as { get; set; }
+####
  ##### Getters and setters...write your own or built in?
  ##### Backing variables?
  ##### Computed properties?
