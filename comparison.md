@@ -155,9 +155,8 @@ C#: An annonomous function used to create delegates. Used to write local functio
 ### 16. Implementation of listeners and event handlers
 
 ### 17. Singleton
- ##### How is a singleton implemented?
- ##### Can it be made thread-safe?
- ##### Can the singleton instance be lazily instantiated?
+Java: Singleton limits the class to a single one that controls access to resources such as databases and sockets. Implemented with a private constructor, and a static accessor method. Uses lazy instances, and is thread safe.    
+C#: A class that only allows an instance of itself to be created. The instance is created inside the Instance property method, and can create subclasses from it. Can be made thread safe, and lazily instantiated.  
 
 ### 18. Procedural programming
  ##### Does the language support procedural programming?
