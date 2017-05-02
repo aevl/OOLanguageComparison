@@ -121,11 +121,14 @@ System.Console.WriteLine(type);
  Java: Garbage Collector   
  C#: Garbage Collector  
  ##### How does it work?
- Java:  
+ Java: As long as an object is being referenced, the JVM considers it alive. Once an object is no longer referenced and therefore is not reachable by the application code, the garbage collector removes it and reclaims the unused memory.  
  C#: 
  ##### Garbage collection?
+ Java: Yes.  
+ C#: Yes  
  ##### Automatic reference counting?
-
+Java:  
+C#:  
 ### 12. Comparisons of references and values
  ##### How are values compared? (i.e. comparing two strings)
 
