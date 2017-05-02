@@ -101,9 +101,11 @@ C#: Built upon inheritance and the ability to inherit subclasses from super clas
 Java: Used to   
 C#: Used to dynamically create an instance to types, get the type from an existing object and invoke its methods and fields, or bind types to an existing oject. Example below:  
 
+```
 int i = 42;  
 System.Type type = i.GetType();  
 System.Console.WriteLine(type);  
+ ```
 
  ##### What reflection abilities are supported?
  ##### How is reflection used?
