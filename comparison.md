@@ -118,7 +118,11 @@ System.Console.WriteLine(type);
 
 ### 11. Memory management
  ##### How is it handled?
+ Java: Garbage Collector   
+ C#: Garbage Collector  
  ##### How does it work?
+ Java:  
+ C#: 
  ##### Garbage collection?
  ##### Automatic reference counting?
 
