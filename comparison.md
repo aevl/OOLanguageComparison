@@ -143,6 +143,8 @@ C#:
 ### 14. Errors and exception handling
 
 ### 15. Lambda expressions, closures, or functions as types
+Java: Lambda expressions reresented as objects, and are bound to a functional interface. A closure is a block of code that can be refereced with access to variables in scope.  
+C#: An annonomous function used to create delegates. Used to write local functions that can be passed as arguments, or returned as values from  function. A closure is an annonomous method, and attached to a parent method. The parent method can be referenced in the annonomous method.
 
 ### 16. Implementation of listeners and event handlers
 
