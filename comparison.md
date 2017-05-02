@@ -121,13 +121,8 @@ System.Console.WriteLine(type);
  Java: Garbage Collector   
  C#: Garbage Collector  
  ##### How does it work?
-<<<<<<< HEAD
- Java:  
- C#:
-=======
  Java: As long as an object is being referenced, the JVM considers it alive. Once an object is no longer referenced and therefore is not reachable by the application code, the garbage collector removes it and reclaims the unused memory.  
- C#: 
->>>>>>> refs/remotes/origin/master
+ C#: When the garbage collector performs a collection, it checks for objects in the managed heap that are no longer being used by the application and performs the necessary operations to reclaim their memory.
  ##### Garbage collection?
  Java: Yes.  
  C#: Yes  
