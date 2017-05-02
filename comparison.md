@@ -121,7 +121,11 @@ System.Console.WriteLine(type);
 
 ### 13. Null/nil references
  ##### Which does the language use? (null/nil/etc)
+ Both Java and C# use null.
+
  ##### Does the language have features for handling null/nil references?
+ Java: Has null-ignore invocation and null-safe types.  
+ C#: Has a null-conditional operator that tests for null before performing member access.
 
 ### 14. Errors and exception handling
 
