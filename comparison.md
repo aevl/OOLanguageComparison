@@ -155,6 +155,7 @@ C#: A class that only allows an instance of itself to be created. The instance i
 
 ### 18. Procedural programming
  ##### Does the language support procedural programming?
+ Procedural programming is not supoorted in Java or C#.
 
 ### 19. Functional programming
  ##### Does the language support functional programming?
