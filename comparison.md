@@ -159,7 +159,7 @@ C#: A class that only allows an instance of itself to be created. The instance i
 
 ### 19. Functional programming
  ##### Does the language support functional programming?
-Java: 
+Java: You could.  
 C#: Yes  
 ```
 final Array<Integer> a = array(1, 2, 3);
