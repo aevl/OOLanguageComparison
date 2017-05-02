@@ -17,8 +17,17 @@
 
 ### 3. Name spaces
  ##### How are name spaces implemented?
- Java: Packages in Java cannot be nested. One source file can only have one package statement. EXAMPLE  
- C#: EXAMPLE  
+ Java: Packages in Java cannot be nested. One source file can only have one package statement.  
+ ```
+ using System;
+ ```   
+ C#:    
+ ```
+ namespace namespace_name
+{
+   // code declarations
+}
+```  
  ##### How are name spaces used?
  Java: Packages are used to organize files or public types to avoid type conflicts  
  C#: Namespaces are used to organize programs  
