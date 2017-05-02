@@ -194,4 +194,8 @@ arrayShow(intShow).println(array(1, 2, 3).map(i -> i + 42));
 
 ### 20. Multithreading
  ##### Threads or thread-like abilities
+ Java: Yes
+ C#: Yes
  ##### How is multitasking accomplished?
+ Java: Multitasking is a process of executing multiple tasks simultaneously. We use multitasking to utilize the CPU. Multitasking can be achieved by two ways: Process-based Multitasking(Multiprocessing) and Thread-based Multitasking(Multithreading)  
+ C#: The most reliable way to create a multithreaded application is to use the BackgroundWorker component. This class manages a separate thread dedicated to processing the method that you specify  
