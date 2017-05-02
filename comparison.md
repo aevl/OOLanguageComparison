@@ -122,7 +122,7 @@ System.Console.WriteLine(type);
  C#: Garbage Collector  
  ##### How does it work?
  Java:  
- C#: 
+ C#:
  ##### Garbage collection?
  ##### Automatic reference counting?
 
@@ -138,6 +138,7 @@ System.Console.WriteLine(type);
  C#: Has a null-conditional operator that tests for null before performing member access.
 
 ### 14. Errors and exception handling
+Both Java and C# have exception handling that is implemented using try-catch blocks
 
 ### 15. Lambda expressions, closures, or functions as types
 
