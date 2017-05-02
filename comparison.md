@@ -127,8 +127,8 @@ System.Console.WriteLine(type);
  Java: Yes.  
  C#: Yes  
  ##### Automatic reference counting?
-Java:  
-C#:  
+Java: No.  
+C#: No.  
 ### 12. Comparisons of references and values
  ##### How are values compared? (i.e. comparing two strings)
 
