@@ -121,8 +121,13 @@ System.Console.WriteLine(type);
  Java: Garbage Collector   
  C#: Garbage Collector  
  ##### How does it work?
+<<<<<<< HEAD
+ Java:  
+ C#:
+=======
  Java: As long as an object is being referenced, the JVM considers it alive. Once an object is no longer referenced and therefore is not reachable by the application code, the garbage collector removes it and reclaims the unused memory.  
  C#: 
+>>>>>>> refs/remotes/origin/master
  ##### Garbage collection?
  Java: Yes.  
  C#: Yes  
@@ -141,6 +146,7 @@ C#: No.
  C#: Has a null-conditional operator that tests for null before performing member access.
 
 ### 14. Errors and exception handling
+Both Java and C# have exception handling that is implemented using try-catch blocks
 
 ### 15. Lambda expressions, closures, or functions as types
 
