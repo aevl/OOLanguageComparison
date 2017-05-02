@@ -12,7 +12,7 @@
 
 ### 2. Unique features of the language
  ##### Does the language have any particularly unique features?
- Java: Has no pointers.
+ Java: Has no pointers.  
  C#:  C# isn't really unique in that it is derived from it's predecessors.
 
 ### 3. Name spaces
