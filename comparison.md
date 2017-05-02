@@ -107,7 +107,7 @@ Java: Inheritance is when a subclass is derived or extended from a super class. 
 C#: Built upon inheritance and the ability to inherit subclasses from super classes.  
 
 ### 10. Reflection
-Java: Used to   
+Java: Used to inspect classes, interfaces, and methods at runtime without knowing the names of them at complie time. Can instantiate new objects, invoke methods, and get/set variables.  
 C#: Used to dynamically create an instance to types, get the type from an existing object and invoke its methods and fields, or bind types to an existing oject. Example below:  
 
 ```
@@ -115,9 +115,6 @@ int i = 42;
 System.Type type = i.GetType();  
 System.Console.WriteLine(type);  
  ```
-
- ##### What reflection abilities are supported?
- ##### How is reflection used?
 
 ### 11. Memory management
  ##### How is it handled?
