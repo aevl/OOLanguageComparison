@@ -149,6 +149,27 @@ Java: Lambda expressions reresented as objects, and are bound to a functional in
 C#: An annonomous function used to create delegates. Used to write local functions that can be passed as arguments, or returned as values from  function. A closure is an annonomous method, and attached to a parent method. The parent method can be referenced in the annonomous method.
 
 ### 16. Implementation of listeners and event handlers
+Java: The EventHandler class provides support for dynamically generating event listeners whose methods execute a simple statement involving an incoming event object and a target object.  The listeners generated are used to the constantly check for changed in the application and report then to the handler.  
+```
+myButton.addActionListener(
+    (ActionListener)EventHandler.create(ActionListener.class, frame, "toFront"));
+
+myButton.addActionListener(new ActionListener() {
+    public void actionPerformed(ActionEvent e) {
+        frame.toFront();
+    }
+});
+
+```
+C#: In C#, events are members of the publisher class.  Also in C# there are Trace Listeners instead over Trace messages are received by listeners. The purpose of a listener is to collect, store, and route tracing messages. Listeners direct the tracing output to an appropriate target, such as a log, window, or text file.  
+```
+window.ClickedEvent += MyEventHandler;
+
+	
+button1.Click += delegate(System.Object o, System.EventArgs e)
+                  { System.Windows.Forms.MessageBox.Show("Click!"); };  
+```
+
 
 ### 17. Singleton
 Java: Singleton limits the class to a single one that controls access to resources such as databases and sockets. Implemented with a private constructor, and a static accessor method. Uses lazy instances, and is thread safe.    
