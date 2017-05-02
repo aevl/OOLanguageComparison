@@ -131,6 +131,7 @@ Java: No.
 C#: No.  
 ### 12. Comparisons of references and values
  ##### How are values compared? (i.e. comparing two strings)
+ Java: Primative data types are compared using == while objects are compared using .equals()
 
 ### 13. Null/nil references
  ##### Which does the language use? (null/nil/etc)
